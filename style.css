@@ -38,6 +38,7 @@ section {
     padding: 12px;
     border-radius: 6px;
     font-weight: 600;
+    margin: 10px;
 }
 
 .button__primary:hover {
@@ -168,6 +169,28 @@ section {
     flex-direction: row-reverse;
 }
 
+.email__subscribe__container {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.email__subscribe__input__field {
+    display: flex;
+    align-items: center;
+}
+
+.email__input {
+    border: 1px solid #ee89a0;
+    border-color: #fcedf0;
+    border-radius: 4px;
+    color: #1d3557;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+
 @media (min-width: 768px) {
 
     .explore__menu__container {
@@ -234,15 +257,28 @@ section {
         align-items: center;
         justify-content: space-between;
     }
+
+    .email__subscribe__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .email__input {
+        width: 20rem;
+    }
 }
 
 @media (min-width: 1024px) {
     .container {
-        max-width: 100%;
+        max-width: 80%;
         padding-right: 15px;
         padding-left: 15px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .navbar{
+        padding: 0;
     }
 
     .explore__menu__lists {
@@ -270,4 +306,26 @@ section {
     .explore__menu__text {
         font-size: 48px;
     }
+
+    .text-x1 {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+
+    .restorant__image1, .restorant__image3 {
+        height: 160px;
+        width: 260px;
+        margin: 0 5px;
+        border-radius: 4px;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    
+    .restorant__image2, .restorant__image4 {
+        height: 250px;
+        width: 330px;
+        margin: 0 5px;
+        border-radius: 4px;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
 }
